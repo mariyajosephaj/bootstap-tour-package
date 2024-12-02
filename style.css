@@ -1,0 +1,83 @@
+.container1{
+    /* background-image: url("https://www.outwardbound.ca/wp-content/uploads/2020/10/50263507431_3724dcba26_c-640x454.jpg"); */
+    height: 500px;
+    width: 100%;
+}
+/* #kerala{
+    width: 100%;
+    background-image: url(./images/kerala-nature-facebook-cover.jpg); 
+    background-image: repeating-linear-gradient(red, yellow 10%, green 20%) url(./images/kerala-nature-facebook-cover.jpg); 
+    width: 500px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+} */
+ .north-img:hover{
+    
+        transform: scale(1.3);
+        transition: .7s;
+        /* background: black; */
+        z-index: 2;
+   
+ }
+ #kerala{
+    height: 250px;
+    background-image: radial-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://e1.pxfuel.com/desktop-wallpaper/346/335/desktop-wallpaper-thrissur-pooram-festival-thrissur-pooram.jpg); 
+ }
+ #kerala1{
+    height: 250px;
+    background-image: radial-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://tourdefarm.in/wp-content/uploads/2021/01/Vallamkali-Boat-Race-In-Kerala-1.jpg); 
+ }
+ #kerala2{
+    height: 250px;
+    background-image: radial-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://www.webindia123.com/city/kerala/kochi-ernakulam/image/atham.jpg); 
+ }
+ .address i{
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    color: black;
+ }
+ 
+.uparrow{
+    float: right;
+    margin: -40px 30px 30px 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: antiquewhite;
+}
+::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: 10px;
+}
+.icon:hover{
+    background: black;
+    
+}
+.icons{
+    font-size: 30px;
+    
+    padding-left: 10px;
+    
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    
+}
+@media (max-width:768px){
+    .feature{
+        margin-top: 100px;
+    }
+}
